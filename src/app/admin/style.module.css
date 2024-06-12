@@ -1,0 +1,16 @@
+.mainnav {
+  background-color: white;
+  padding: 10px 0px;
+}
+
+.mainnav ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.mainnav ul li {
+  margin: 0px 10px;
+  color: black;
+}

@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import style from './style.module.css'
 
 export default function DashboardLayout({children}) {
   return (
     <div>
-      <nav>
+      <nav className={style.mainnav}>
         <ul>
             <li><Link href="/admin/dashboard">Dashboard</Link></li>
             <li><Link href="/admin/products">Products</Link></li>
